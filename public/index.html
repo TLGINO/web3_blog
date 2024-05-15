@@ -15,11 +15,14 @@
 <body>
 
 
-    <div id="intro"></div>
+    <div class="intro" id="intro"></div>
 
 
-    <h2 onclick="bundle.getKeys()">1. Keys</h2>
+    <h2 class="soft" onclick="bundle.getEthereum()">1. Ethereum</h2>
     <div class="hidden" id="part-1"></div>
+
+    <h2 class="soft" onclick="bundle.getKeys()">2. Keys</h2>
+    <div class="hidden" id="part-2"></div>
 
     <script>
         bundle.getIntro();

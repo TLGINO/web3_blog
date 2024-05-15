@@ -9,5 +9,5 @@ Hope you enjoy and feel free to give me some feedback!
 [Email](mailto:m.lettry1@gmail.com) [Linkedin](https://www.linkedin.com/in/martin-lettry/)
 
 
-
+Disclaimer: I'm still learning, so some of the info here may be incorrect, if that's the case please let me know and I will update the site, or feel free to submit a pull request [here](https://github.com/TLGINO/web3_blog).
 

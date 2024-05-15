@@ -10,4 +10,4 @@ Hope you enjoy and feel free to give me some feedback!
 
 [Email](mailto:m.lettry1@gmail.com) [Linkedin](https://www.linkedin.com/in/martin-lettry/)
 
-[Blog](https://web3blog-da44c.web.app/)
+[Blog](https://web3.lettry.xyz)

@@ -1,10 +1,35 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid white; */
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  color: white;
+  /* background-color: gray; */
+  background-color: #1a1a1a;
+  /* Background Color: #1A1A1A (Dark Gray) */
 }
+
+a {
+  color: gold;
+}
+
+.intro {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.soft {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+.soft:hover {
+  cursor: pointer;
+}
+
 .hidden {
+  padding: 10px;
   display: none;
 }
