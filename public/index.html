@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web3 Blog</title>
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="template.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="intro"></div>
+
+
+    <h2 onclick="bundle.getKeys()">1. Keys</h2>
+    <div class="hidden" id="part-1"></div>
+
+    <script>
+        bundle.getIntro();
+    </script>
+</body>
+
+</html>

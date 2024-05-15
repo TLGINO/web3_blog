@@ -1,0 +1,10 @@
+* {
+  border: 1px solid red;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.hidden {
+  display: none;
+}

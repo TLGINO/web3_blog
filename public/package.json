@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "file-system": "^2.2.2",
+    "markdown-it": "^14.1.0",
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "build": "node helper.js & browserify index.js --standalone bundle -o ./dist/bundle.js",
+    "watch": "nodemon --watch index.js --watch ../markdown_files/* --exec \"node helper.js & watchify index.js --standalone bundle -o ./dist/bundle.js -v\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}

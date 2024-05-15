@@ -1,0 +1,4 @@
+public/node_modules/
+public/dist/
+public/processed_markdown/*
+.firebase
