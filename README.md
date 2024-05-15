@@ -1,5 +1,13 @@
 # Web3 Blog
 
-## Idea:
+# Introduction
 
-I'm planning to delve into the world of web3 during Summer 2024, I figured I would create a blog about what I've learnt so far and give some code examples.
+I'm planning on diving into the world of Web3 during Summer of 2024, with a particular focus on Ethereum.
+
+I figured I would create a blog and post about what I learn along the way and give some code examples.
+
+Hope you enjoy and feel free to give me some feedback!
+
+[Email](mailto:m.lettry1@gmail.com) [Linkedin](https://www.linkedin.com/in/martin-lettry/)
+
+[Blog](https://web3blog-da44c.web.app/)
