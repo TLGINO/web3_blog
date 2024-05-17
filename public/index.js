@@ -1,6 +1,7 @@
 const file_0 = require("./processed_markdown/0_Intro.js");
 const file_1 = require("./processed_markdown/1_Ethereum.js");
 const file_2 = require("./processed_markdown/2_Keys.js");
+const file_projects = require("./processed_markdown/Project.js");
 
 function getAndSet(id, file) {
   let content = document.getElementById(id);
@@ -23,9 +24,13 @@ function getEthereum() {
 function getKeys() {
   getAndSet("part-2", file_2);
 }
+function getProjects() {
+  getAndSet("part-projects", file_projects);
+}
 
 module.exports = {
   getIntro,
   getEthereum,
   getKeys,
+  getProjects,
 };

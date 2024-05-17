@@ -23,7 +23,7 @@ Ethereum / blockchain in general hypothesises another paradigm, one where entiti
 
 
 ## Immutability
-Another issue with centralised systems is that there is no ownership.
+Another issue with centralised systems is that there is no self ownership.
 Without going down the "what it means to own something" rabbit hole, systems can give you ownership of various goods (such as land, money, titles etc) yet this ownership depends on:
  - the system maintaining a set of principles
    - To take a small economic digression, there once was a time where the US dollar was pegged to the amount of gold held in reserves, called [gold_standard](https://en.wikipedia.org/wiki/Gold_standard), meaning printing an infinite amount of money was not possible, as there is only a finite amount of gold on earth
@@ -36,6 +36,7 @@ Of course, this does not mean that the blockchain is an ideal candidate for all 
 It should not be considered on par with say a Database or your typical desktop, but should be seen as an immutable ledger, capable keeping a log of changes of state.
 
 ## BlockChain
+
 
 
 ## Identity and Anonymity
