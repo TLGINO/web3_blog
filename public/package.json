@@ -6,8 +6,8 @@
     "watchify": "^4.0.0"
   },
   "scripts": {
-    "build": "node helper.js & browserify index.js --standalone bundle -o ./dist/bundle.js",
-    "watch": "nodemon --watch index.js --watch ../markdown_files/* --exec \"node helper.js & watchify index.js --standalone bundle -o ./dist/bundle.js -v\""
+    "build": "node helpers/helper.js & browserify index.js --standalone bundle -o ./dist/bundle.js",
+    "watch": "nodemon --exec 'npm run build' --watch helpers --watch ../markdown_data --watch index.js --ext js"
   },
   "devDependencies": {
     "http-server": "^14.1.0"

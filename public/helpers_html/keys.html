@@ -1,0 +1,23 @@
+<div>
+    <div>
+        <form>
+            <label for="private_key">Private Key</label>
+            <input type="text" id="private_key_input" oninput="bundle.generateKeysHelper(true)">
+            <label for="seed">Seed</label>
+            <input type="text" id="seed_input" oninput="bundle.generateKeysHelper(false)">
+        </form>
+    </div>
+    <div>
+        <h5>Private Key: <h4 id="result_private_key"></h4>
+        </h5>
+        <h5>Public Key:<h4 id="result_public_key"></h4>
+        </h5>
+        <h5>Public Address: <a id="result_public_key_href" href="" target="_blank">
+                <h4 id="result_public_address"></h4>
+            </a>
+        </h5>
+
+
+    </div>
+</div>
+</div>
