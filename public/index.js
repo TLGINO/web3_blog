@@ -24,6 +24,7 @@ async function loadMarkdownFiles() {
     file_0 = await readFileContent(basePath, "0_Intro");
     file_1 = await readFileContent(basePath, "1_Ethereum");
     file_2 = await readFileContent(basePath, "2_Keys");
+    file_2_1 = await readFileContent(basePath, "2_1_Keys");
     file_projects = await readFileContent(basePath, "Project");
     keys_html = await readFileContent(helpersPath, "keys");
 
@@ -54,6 +55,7 @@ function getEthereum() {
 function getKeys() {
   getAndSet("part-2", file_2);
   getAndSet("part-2-demo", keys_html);
+  getAndSet("part-2-continued", file_2_1);
 }
 
 function getProjects() {
