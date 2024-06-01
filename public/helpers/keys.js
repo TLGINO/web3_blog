@@ -38,7 +38,7 @@ function generateKeys(seed, privateKey) {
   const publicAddr = publicKeyToAddress(publicKey);
 
   return {
-    private_key: `0x${privateKey.padStart(32, 0)}`,
+    private_key: `0x${privateKey.padStart(64, 0)}`,
     public_key: publicKey,
     public_address: publicAddr,
   };

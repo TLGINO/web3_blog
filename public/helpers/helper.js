@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
 
-const markdownFilesDir = path.join(__dirname, "../../markdown_files");
+const markdownFilesDir = path.join(__dirname, "../markdown_files");
 const outputDir = path.join(__dirname, "../processed_markdown");
 
 console.log("Preprocessing Markdown...");

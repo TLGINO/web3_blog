@@ -11,3 +11,7 @@ Hope you enjoy and feel free to give me some feedback!
 [Email](mailto:m.lettry1@gmail.com) [Linkedin](https://www.linkedin.com/in/martin-lettry/)
 
 [Blog](https://web3.lettry.xyz)
+
+
+# TODO
+- fix package.json watch (index.js needs to re-read data)
