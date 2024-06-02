@@ -8,4 +8,5 @@ I hope you enjoy the content, and I welcome your feedback!
 
 [Email](mailto:m.lettry1@gmail.com) | [LinkedIn](https://www.linkedin.com/in/martin-lettry/)
 
-**Disclaimer**: I'm still learning, so some of the information here may be incorrect. If you notice any mistakes, please let me know and I will update the site. Alternatively, feel free to submit a pull request [here](https://github.com/TLGINO/web3_blog).
+**Disclaimer**: I'm still learning, so some of the information here may be incorrect. If you notice any mistakes, please let me know and I will update the site.
+Else, feel free to submit a pull request [here](https://github.com/TLGINO/web3_blog).

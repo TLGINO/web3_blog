@@ -1,4 +1,4 @@
-#### Fun facts / Trivia:
+### Fun facts / Trivia:
 
 As there is no real ownership of accounts on Ethereum (only probabilistic ownership), you can 'access' other people's accounts if you know their private key.
 

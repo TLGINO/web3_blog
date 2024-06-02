@@ -51,3 +51,29 @@ Ethereum is vulnerable to:
 
 
 
+## ETH vs Ethereum
+
+A common misconception is that ETH = Ethereum, in the same way that Bitcoin = bitcoin.
+
+In fact, Ethereum refers to the blockchain itself, whereas ETH or ether refers to the crypto currency.
+
+## ETH
+
+ETH is fungible, meaning all ETH's are created equal and there is no 'ID' associated with any 1 specific ETH.
+
+ETH is similar to the dollar or euro in the sense that it can be further divided.
+
+
+
+| Unit Name       | Value in Wei | Number of Wei             |
+|-----------------|--------------|---------------------------|
+| Wei (wei)       | 1 wei        | 1                         |
+| Kwei (babbage)  | 10^3 wei     | 1'000                     |
+| MWei (lovelace) | 10^6 wei     | 1'000'000                 |
+| Gwei (shannon)  | 10^9 wei     | 1'000'000'000             |
+| Twei (szabo)    | 10^12 wei    | 1'000'000'000'000         |
+| Pwei (finney)   | 10^15 wei    | 1'000'000'000'000'000     |
+| Ether (buterin) | 10^18 wei    | 1'000'000'000'000'000'000 |
+
+
+Here is a nice [unit converter](https://eth-converter.com/).

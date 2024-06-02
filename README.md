@@ -14,4 +14,4 @@ Hope you enjoy and feel free to give me some feedback!
 
 
 # TODO
-- fix package.json watch (index.js needs to re-read data)
+- Sources / links / contributions part

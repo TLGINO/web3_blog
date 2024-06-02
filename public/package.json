@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "node helpers/helper.js & browserify index.js --standalone bundle -o ./dist/bundle.js",
-    "watch": "nodemon --exec 'npm run build' --watch ./markdown_files/ --watch index.js --ext js"
+    "watch": "nodemon --exec 'npm run build' --watch ./markdown_files/ --watch index.js --ext js,md"
   },
   "devDependencies": {
     "http-server": "^14.1.0"
