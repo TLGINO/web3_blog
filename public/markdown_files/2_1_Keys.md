@@ -39,7 +39,7 @@ print("Ethereum Address:", "0x" + address)
 ```
 
 
-### Some cool addresses
+### Some Cool Addresses:
 
 - **[0xdcc703c0E500B653Ca82273B7BFAd8045D85a470](https://etherscan.io/address/0xdcc703c0E500B653Ca82273B7BFAd8045D85a470)**
   - It is possible to accidentally hash an empty public key
@@ -59,3 +59,22 @@ print("Ethereum Address:", "0x" + address)
 
 - **[0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae](https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae)**
   - This is the EthDev account, owned by the Ethereum Foundation, use mainly to fund the development of the Ethereum Network.
+
+
+
+## Transactions:
+
+I will touch quickly on transactions here, although they are fundamental I believe they are reasonably well understood / easy to understand - meaning if you're reading this you most certainly already know a thing or two about them, that said let us look into them quickly.
+
+A transaction is a signed message which is sent to the Ethereum network. This message is signed using the sender's private key - thus providing undeniable proof that he is the sender.
+
+Transactions have the following data params:
+- from: sender address
+- to: receiver address
+- signature: identifier of the sender (generated from the private key)
+- nonce: auto-incrementing number indicating the n'th transaction made from this account
+- value: amount to send (in Wei)
+- input_data: optional field to include data (useful for interacting with Smart Contracts)
+- gasLimit: max amount of gas to be consumed by the transaction (more on gas later)
+- maxPriorityFeePerGas: maximum price of the consumed gas to be sent as tip to the validator
+- maxFeePerGas: maximum amount (in wei) user is willing to pay for 1 gas

@@ -1,9 +1,10 @@
 let file_0;
 let file_1;
-let file_2;
+let file_2_0;
 let file_2_1;
 let file_3;
 let file_projects;
+let file_resources;
 let keys_html;
 
 const { generateKeys } = require("./helpers/keys");
@@ -25,13 +26,19 @@ async function loadMarkdownFiles() {
   try {
     file_0 = await readFileContent(basePath, "0_Intro");
     file_1 = await readFileContent(basePath, "1_Ethereum");
-    file_2 = await readFileContent(basePath, "2_Keys");
+    file_2_0 = await readFileContent(basePath, "2_0_Keys");
     file_2_1 = await readFileContent(basePath, "2_1_Keys");
     file_3 = await readFileContent(basePath, "3_Accounts");
-    file_projects = await readFileContent(basePath, "Project");
+    file_projects = await readFileContent(basePath, "Projects");
+    file_resources = await readFileContent(basePath, "Resources");
     keys_html = await readFileContent(helpersPath, "keys");
 
     getIntro();
+    getEthereum();
+    getKeys();
+    getAccounts();
+    getProjects();
+    getResources();
   } catch (error) {
     console.error(error);
   }
@@ -56,13 +63,9 @@ function getEthereum() {
 }
 
 function getKeys() {
-  getAndSet("part-2", file_2);
+  getAndSet("part-2", file_2_0);
   getAndSet("part-2-demo", keys_html);
   getAndSet("part-2-continued", file_2_1);
-}
-
-function getProjects() {
-  getAndSet("part-projects", file_projects);
 }
 
 function generateKeysHelper(privateKeyEditedLast) {
@@ -101,6 +104,14 @@ function getAccounts() {
   getAndSet("part-accounts", file_3);
 }
 
+function getProjects() {
+  getAndSet("part-projects", file_projects);
+}
+
+function getResources() {
+  getAndSet("part-resources", file_resources);
+}
+
 module.exports = {
   loadMarkdownFiles,
   getIntro,
@@ -108,5 +119,6 @@ module.exports = {
   getKeys,
   getAccounts,
   getProjects,
+  getResources,
   generateKeysHelper,
 };

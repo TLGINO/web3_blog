@@ -1,4 +1,4 @@
-# Introduction
+# Introduction:
 
 I'm looking forward to exploring the world of Web3 during the summer of 2024, with a particular focus on Ethereum.
 

@@ -2,7 +2,7 @@
 
 At its core, Ethereum and blockchain technology in general introduces a new paradigm for computing and storage. It is a decentralized and trustless system, maintained by a network of volunteers worldwide, who collectively contribute to the security of the entire network. To understand the use cases of Ethereum, we need to examine and question some of society's most fundamental principles.
 
-## Trust
+## Trust:
 
 In a typical centralized system, participants must trust each other to operate effectively.
 
@@ -18,7 +18,7 @@ In the 'real world,' reputation is just one tool entities use to trust one anoth
 
 Ethereum and blockchain technology propose a different paradigm, one where entities do not need to trust each other, known as **trustless**.
 
-## Immutability
+## Immutability:
 
 Another issue with centralized systems is the lack of 'real' ownership. Without delving into the philosophical debate of what it means to own something, systems can grant ownership of various goods (such as land, money, titles, etc.), but this ownership relies on:
 - The system maintaining a set of principles.
@@ -32,7 +32,7 @@ However, this does not mean blockchain is the ideal candidate for all computing 
 
 "Can you please tell me why using the Ethereum blockchain is better than using Excel?" - Vitalik Buterin on what he asks startups based on top of Ethereum.
 
-## Blockchain and Security
+## Blockchain and Security:
 
 "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Since each block contains information about the previous block, they effectively form a chain, with each additional block linking to the ones before it." - [Wikipedia](https://en.wikipedia.org/wiki/Blockchain)
 
@@ -50,16 +50,28 @@ Ethereum is vulnerable to:
 - **66% attack**: Rewrite history.
 
 
+## Ethereum and EVM, some technical notes:
 
-## ETH vs Ethereum
+Ethereum is often referred to as a "world computer" due to its unique architecture. A global network of validators collaboratively maintains the Ethereum blockchain, running the Ethereum Virtual Machine (EVM).
 
-A common misconception is that ETH = Ethereum, in the same way that Bitcoin = bitcoin.
+The EVM works similarly to your operating system, except that it is quite restricted in what it can do (from a computational point of view) - also it is not meant to be an OS :)
+
+That said, the EVM is said to be (quasi) [Turing Complete](https://en.wikipedia.org/wiki/Turing_machine) - meaning it is capable of executing any computer algorithm. It is 'quasi' Turing Complete because a Turing Machine can also loop infinitely, this is not feasible in Ethereum as execution steps are restricted by the use of gas - more on this later.
+
+The EVM is also single-threaded, meaning it is not capable of executing more than one program or transaction at once. This ensures that if a program isn't run to termination or an error is encountered, the whole set of instructions can be rolled back, returning the blockchain to it's state pre-execution.
+
+
+
+
+## ETH vs Ethereum:
+
+A common misconception is that ETH = Ethereum.
 
 In fact, Ethereum refers to the blockchain itself, whereas ETH or ether refers to the crypto currency.
 
-## ETH
+## ETH:
 
-ETH is fungible, meaning all ETH's are created equal and there is no 'ID' associated with any 1 specific ETH.
+ETH is fungible, meaning all ETH's are created equal and there is no 'ID' or serial number associated with any 1 specific ETH.
 
 ETH is similar to the dollar or euro in the sense that it can be further divided.
 
@@ -77,3 +89,5 @@ ETH is similar to the dollar or euro in the sense that it can be further divided
 
 
 Here is a nice [unit converter](https://eth-converter.com/).
+
+You cannot further divide 1 Wei.
