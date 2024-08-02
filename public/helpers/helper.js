@@ -3,6 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
+const imsize = require("markdown-it-imsize");
 
 const markdownFilesDir = path.join(__dirname, "../markdown_files");
 const outputDir = path.join(__dirname, "../processed_markdown");
@@ -22,7 +23,7 @@ console.log("Markdown preprocessing completed.");
 
 function processMarkdown(content) {
   // parse markdown file
-  const md = markdownIt();
+  const md = markdownIt().use(imsize);
   const result = md.render(content);
 
   return result;
