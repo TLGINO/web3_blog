@@ -20,7 +20,7 @@ A contract account, also known as a smart contract, is a piece of code that live
 
 You do not have ownership of the contract you published - you don't have the keys to it (no one does).
 
-The only ownership you may have over the contract is defined in the contract logic itself.
+The only ownership you may have over the contract is defined in the contract logic itself - [code is law]("https://en.wikipedia.org/wiki/Lawrence_Lessig#:~:text=member%20Joi%20Ito-,%22Code%20is%20law%22,-%5Bedit%5D").
 
 ## Smart Contracts - technical:
 
@@ -63,7 +63,7 @@ This tip can help you to frontrun your transaction - it is essentially a priorit
 
 To check the current gas price, I like this [site](https://etherscan.io/gastracker).
 
-High level, gas works using the notion of supply and demand - when the Ethereum network is busy, gas prices are high, when the network is not busy, gas prices are low.
+At a high level, gas works using the notion of supply and demand - when the Ethereum network is busy, gas prices are high, when the network is not busy, gas prices are low.
 Also, the more computationally expensive the task, the more gas it will cost.
 
 

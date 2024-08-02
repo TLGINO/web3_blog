@@ -42,7 +42,7 @@ A great tool for understanding and visualizing this was developed by Anders Brow
 
 Without delving into the differences between Bitcoin (Proof of Work) and Ethereum (Proof of Stake) at this stage, it's important to note that although these blockchains are extremely secure, they are not invulnerable to attack.
 
-Bitcoin is vulnerable to a 51% attack, where 51% of nodes 'overpower' the other 49% and can alter the past and future state of the blockchain.
+Bitcoin is vulnerable to a 51% attack, whereby 51% of nodes 'overpower' the other 49% and can alter the past and future state of the blockchain.
 
 Ethereum is vulnerable to:
 - **33% attack**: Impact chain performance.

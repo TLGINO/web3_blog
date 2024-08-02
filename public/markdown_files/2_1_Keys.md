@@ -78,3 +78,6 @@ Transactions have the following data params:
 - gasLimit: max amount of gas to be consumed by the transaction (more on gas later)
 - maxPriorityFeePerGas: maximum price of the consumed gas to be sent as tip to the validator
 - maxFeePerGas: maximum amount (in wei) user is willing to pay for 1 gas
+
+
+Transactions are irreversible.
