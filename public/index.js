@@ -1,12 +1,3 @@
-let file_0;
-let file_1;
-let file_2_0;
-let file_2_1;
-let file_3;
-let file_projects;
-let file_resources;
-let keys_html;
-
 const { generateKeys } = require("./helpers/keys");
 
 async function readFileContent(basePath, fileName) {
@@ -19,53 +10,39 @@ async function readFileContent(basePath, fileName) {
   }
 }
 
-const basePath = "./processed_markdown";
 const helpersPath = "./helpers_html";
+const basePath = "./processed_markdown";
 
-async function loadMarkdownFiles() {
-  try {
-    file_0 = await readFileContent(basePath, "0_Intro");
-    file_1 = await readFileContent(basePath, "1_Ethereum");
-    file_2_0 = await readFileContent(basePath, "2_0_Keys");
-    file_2_1 = await readFileContent(basePath, "2_1_Keys");
-    file_3 = await readFileContent(basePath, "3_Accounts");
-    file_projects = await readFileContent(basePath, "Projects");
-    file_resources = await readFileContent(basePath, "Resources");
-    keys_html = await readFileContent(helpersPath, "keys");
-
-    getIntro();
-    getEthereum();
-    getKeys();
-    getAccounts();
-    getProjects();
-    getResources();
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-function getAndSet(id, content) {
+async function getAndSet(id, path, content_name) {
+  let content = await readFileContent(path, content_name);
   let element = document.getElementById(id);
-  if (element.classList.contains("hidden")) {
-    element.classList.remove("hidden");
-    element.innerHTML = content;
-  } else {
-    element.classList.add("hidden");
-  }
+  element.innerHTML = content;
 }
 
-function getIntro() {
-  getAndSet("intro", file_0);
+async function getIntro() {
+  getAndSet("intro", basePath, "0_Intro");
 }
 
-function getEthereum() {
-  getAndSet("part-1", file_1);
+async function getEthereum() {
+  getAndSet("part-1", basePath, "1_Ethereum");
 }
 
-function getKeys() {
-  getAndSet("part-2", file_2_0);
-  getAndSet("part-2-demo", keys_html);
-  getAndSet("part-2-continued", file_2_1);
+async function getKeys() {
+  getAndSet("part-2", basePath, "2_0_Keys");
+  getAndSet("part-2-demo", helpersPath, "keys");
+  getAndSet("part-2-continued", basePath, "2_1_Keys");
+}
+
+async function getAccounts() {
+  getAndSet("part-accounts", basePath, "3_Accounts");
+}
+
+async function getProjects() {
+  getAndSet("part-projects", basePath, "Projects");
+}
+
+async function getResources() {
+  getAndSet("part-resources", basePath, "Resources");
 }
 
 function generateKeysHelper(privateKeyEditedLast) {
@@ -100,20 +77,7 @@ function generateKeysHelper(privateKeyEditedLast) {
   ).href = `https://etherscan.io/address/${result.public_address}`;
 }
 
-function getAccounts() {
-  getAndSet("part-accounts", file_3);
-}
-
-function getProjects() {
-  getAndSet("part-projects", file_projects);
-}
-
-function getResources() {
-  getAndSet("part-resources", file_resources);
-}
-
 module.exports = {
-  loadMarkdownFiles,
   getIntro,
   getEthereum,
   getKeys,

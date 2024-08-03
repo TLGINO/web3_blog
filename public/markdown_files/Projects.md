@@ -1,13 +1,13 @@
 # Projects:
 
-Here I will put a list of web3 projects I'm working on / am done with.
+Here I'll put a list of web3 projects I'm working on / am done with.
 
 ## One Hundred Pixel Board:
 
 A 10*10 board of pixels which you can buy and leave a message.
 The pixel belongs to the highest bidder and can be changed by anyone.
 
-![Board with pixel](https://raw.githubusercontent.com/TLGINO/one_hundred_pixel_board/master/image.png =1000x1000)
+![Board with pixel](https://raw.githubusercontent.com/TLGINO/one_hundred_pixel_board/master/image.png)
 
 [See Online](https://onehundredpixelboard.lettry.xyz/)
 
@@ -45,9 +45,5 @@ I will publish my repo later.
 I am also running Taiko as an L2, although I am yet to interact much with it - I have just synched it so far.
 
 
-
-
-
-## Running an Ethereum L2:
 
 

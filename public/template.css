@@ -1,40 +1,25 @@
 * {
-  /* border: 1px solid white; */
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   color: white;
-  /* background-color: gray; */
   background-color: #1a1a1a;
-  /* Background Color: #1A1A1A (Dark Gray) */
+}
+
+body {
+  margin: 3%;
 }
 
 a {
   color: gold;
 }
 
-.intro {
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid white;
+h2 {
+  color: gold;
 }
 
-.soft {
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid white;
-}
-.soft:hover {
-  cursor: pointer;
-}
-
-.hidden {
-  padding: 10px;
-  display: none;
-}
-
-.article {
-  padding: 10px;
-  border: red 1px solid;
+nav {
+  display: flex;
+  justify-content: space-around;
 }

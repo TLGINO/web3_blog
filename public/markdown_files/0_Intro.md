@@ -10,3 +10,5 @@ I hope you enjoy the content, and I welcome your feedback!
 
 **Disclaimer**: I'm still learning, so some of the information here may be incorrect. If you notice any mistakes, please let me know and I will update the site.
 Else, feel free to submit a pull request [here](https://github.com/TLGINO/web3_blog).
+
+Also, I suck at frontend :)
